@@ -34,14 +34,6 @@ backup_1.zip
 backup_2.zip
 backup_3.zip
 
-## Testing
 
-Unit tests for the partitioning algorithm can be added under internal/packer as *_test.go. Use the standard go test ./... flow.
-
-## Roadmap
-
-* Parallel compression pipeline
-* Configurable compression (store/deflate/zstd)
-* Manifest generation for reproducibility
 
 
