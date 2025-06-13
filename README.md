@@ -1,6 +1,6 @@
 # zip‑packer
 
-Prototype CLI that partitions an arbitrary set of files into **k** ZIP archives, each at least a minimum size.
+Prototype CLI that partitions an arbitrary set of files into ZIP archives, each at least a minimum size.
 
 ## Build
 
@@ -19,7 +19,7 @@ zip-packer <inputDir> -size 2048 -out backup
 * **`-out`**       Base name for output archives (`backup_1.zip`, `backup_2.zip`, etc…).
 
 
-The tool applies a greedy best‑fit‑decreasing bin‑packing heuristic followed by a balancing pass to ensure every archive ≥ floor.
+The tool applies a greedy best‑fit‑decreasing bin‑packing heuristic followed by a balancing pass to ensure every archive ≥ **size**.  If the first file of an archive is > **size** then the archive will have a single file.
 
 ## Example
 
