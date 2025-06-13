@@ -30,9 +30,9 @@ The tool applies a greedy best‑fit‑decreasing bin‑packing heuristic follow
 
 Creates:
 
-backup_1.zip
-backup_2.zip
-backup_3.zip
+archive_1.zip
+archive_2.zip
+archive_3.zip
 
 
 
