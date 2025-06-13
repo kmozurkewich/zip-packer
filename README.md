@@ -25,7 +25,7 @@ The tool applies a greedy best‑fit‑decreasing bin‑packing heuristic follow
 
 
 ```
- zip-packer -in ./dataset -k 3 -size 512 -out backup 
+ zip-packer -size 64 /data/
  ```
 
 Creates:
